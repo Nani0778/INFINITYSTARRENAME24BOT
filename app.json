@@ -9,7 +9,7 @@
     "API_HASH": {"description": "Get this value from https://my.telegram.org", "required": true},                              
     "BOT_TOKEN": {"description": "Your bot token. Get this value from https://t.me/BotFather", "required": true},
     "ADMIN": {"description": "your telegram id. because this bot repo is admin only", "required": true},
-    "CAPTION": {"description": "your permanent caption, "\"required": false}                         
+    "CAPTION": {"description": "your permanent caption" ,"required": false}                         
   }, 
   "addons": [ ],
   "buildpacks": [{"url": "heroku/python"}]
